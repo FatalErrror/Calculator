@@ -119,7 +119,7 @@ String firstNumb = "",secondNumb = "",resultNumb = "";
 
             showresult.setText(firstNumb);
         }else {//bug
-            int first=0,second=0,result=0;
+            long first=0,second=0,result=0;
 
                 first = Integer.parseInt(firstNumb);
                 if(secondNumb=="")secondNumb = activ=='/'||activ=='*'?"1":"0";
